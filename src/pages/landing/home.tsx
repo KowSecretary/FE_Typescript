@@ -11,7 +11,8 @@ export default function home() {
           <SideBar />
         </Grid.Col>
         <Grid.Col span={{ base: 12, md: 10, lg: 11 }}>
-          <Outlet />
+          <div className="py-4">
+          <Outlet /></div>
         </Grid.Col>
       </Grid>
     </div>

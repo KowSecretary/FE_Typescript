@@ -1,7 +1,11 @@
-import React from 'react'
+import MainCarousel from "../../components/carousel/mainCarousel";
+import GeneralHeader from "../../components/introduction/general";
 
 export default function mainPage() {
   return (
-    <div>mainPage</div>
-  )
+    <div className="flex flex-col gap-10">
+      <MainCarousel />
+      <GeneralHeader />
+    </div>
+  );
 }
