@@ -4,7 +4,7 @@ import Navbar from "../../components/menu/navBar";
 import { Outlet } from "react-router-dom";
 export default function home() {
   return (
-    <div className="w-[1529px] border border-black">
+    <div className="w-[1529px]">
       <Navbar />
       <Grid>
         <Grid.Col span={{ base: 12, md: 2, lg: 1 }}>
