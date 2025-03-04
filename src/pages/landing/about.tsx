@@ -1,7 +1,10 @@
-import React from 'react'
+import Ava from "../../assets/avatar.png";
 
 export default function about() {
   return (
-    <div>about</div>
-  )
+    <div>
+      {" "}
+      <img src={Ava} className="h-96" />
+    </div>
+  );
 }

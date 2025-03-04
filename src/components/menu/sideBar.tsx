@@ -26,11 +26,11 @@ export default function Sidebar() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col px-2 py-4 items-center gap-2">
+    <div className="flex flex-col px-2 py-4 items-center gap-2 ">
       {menuItems.map((item) => (
         <button
           key={item.id}
-          className="w-20 h-20 hover:bg-gray-100 bg-gray-200 rounded-2xl flex flex-col items-center justify-center"
+          className="w-[75px] h-[75px] hover:bg-gray-100 bg-gray-200 rounded-2xl flex flex-col items-center justify-center"
           onClick={() => navigate(item.path)}
         >
           {item.icon}
