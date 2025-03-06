@@ -1,23 +1,22 @@
-import { HomeIcon } from "@heroicons/react/24/solid";
 import { useNavigate } from "react-router-dom";
 
 const menuItems = [
   {
     id: 1,
     label: "home",
-    icon: <HomeIcon className="h-6 w-6 text-gray-500" />,
+    icon: <div className="h-6 w-6 text-gray-500" />,
     path: "/",
   },
   {
     id: 2,
     label: "profile",
-    icon: <HomeIcon className="h-6 w-6 text-gray-500" />,
+    icon: <div className="h-6 w-6 text-gray-500" />,
     path: "/about",
   },
   {
     id: 3,
     label: "settings",
-    icon: <HomeIcon className="h-6 w-6 text-gray-500" />,
+    icon: <div className="h-6 w-6 text-gray-500" />,
     path: "/settings",
   },
 ];

@@ -1,5 +1,5 @@
 import { Divider, Flex, Title } from "@mantine/core";
-import { WEB_NAME } from "../../name";
+import { WEB_NAME } from "../../info";
 import BackgroundLogin from "../../components/bgVideo";
 import FormLogin from "../../components/login/formLogin";
 
@@ -13,7 +13,7 @@ export default function login() {
         <div className="w-auto h-auto border border-green-700 bg-white/10 backdrop-blur-sm shadow-lg rounded-lg p-10 flex flex-col justify-center items-center">
           <Flex justify="center" align="center" direction="column">
             <Title className="py-5" order={3}>
-              Welcome to {WEB_NAME}{" "}
+              Welcome to {WEB_NAME}
             </Title>
             <GoogleButton />
             <Divider
