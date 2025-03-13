@@ -10,8 +10,8 @@ export default function marqueeRace() {
     [key: string]: any;
   }) {
     return (
-      <div className="border-t-4 border-dashed border-black p-4 w-[400px]">
-        <div className="bg-gray-800 text-white text-center py-4 rounded-3xl text-xl w-[200px]">
+      <div className="border-t-4 border-dashed border-black p-4 w-[500px]">
+        <div className="bg-gray-800 text-white text-center py-4 rounded-3xl w-auto">
           {children}
         </div>
       </div>

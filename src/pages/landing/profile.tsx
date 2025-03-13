@@ -3,6 +3,9 @@ import ListIntro from "../../components/introduction/listIntro";
 import ListIntro2 from "../../components/introduction/quote";
 import Title from "../../components/introduction/title";
 import GeneralProfile from "../../components/introduction/generalProfile";
+import Education from "../../components/introduction/generalEducation";
+import Race from "../../components/carousel/marqueRace";
+import KeyWord from "../../components/introduction/generalKeyWord";
 
 export default function About() {
   return (
@@ -12,7 +15,17 @@ export default function About() {
 
       {/* General Info */}
       <Title titleSection="General" />
-      <GeneralProfile/>
+      <GeneralProfile />
+
+      {/* Education Info */}
+      <Title titleSection="Education" />
+      <Education />
+
+      {/* Body Begin Info */}
+      <KeyWord />
+
+      {/* Footer Info */}
+      {/* <Race /> */}
     </div>
   );
 }
