@@ -11,6 +11,7 @@ export default function general() {
       >
         WELCOME TO THE SECRETARY OF KOW
       </Text>
+
       <div className="flex flex-row flex-wrap gap-11 justify-start py-8">
         <Project />
         <Project />
